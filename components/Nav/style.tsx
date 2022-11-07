@@ -21,8 +21,10 @@ export const NavInfo = styled.div`
         margin-top: 4rem;
     }
 
-    .hidden {
+    @media (max-width: 768px) {
+        .hidden {
             display: none;
+        }
     }
 
     ul {
