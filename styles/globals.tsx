@@ -21,6 +21,10 @@ export default createGlobalStyle`
         text-decoration: none;
     }
 
+    li {
+        list-style: none;
+    }
+
     :root {
         --primary: #0F1A2E;
         --secondary: #BE8F41;
