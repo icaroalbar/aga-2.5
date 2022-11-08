@@ -12,6 +12,7 @@ export const HeaderStyle = styled.header`
     background-size: cover;
     background-position: right;
     border-bottom: solid 5px var(--secondary);
+    overflow: hidden;
 `;
 
 export const FlexStyle = styled.div`
@@ -29,7 +30,7 @@ export const FlexStyle = styled.div`
 export const FlexStyleTwo = styled(FlexStyle)`
     order: 2;
     animation: textHeader 1.5s ease;
-    width: 30%;
+    width: 25%;
 
     @media (max-width: 992px) {
         width: 90%;
