@@ -32,5 +32,3 @@ export default createGlobalStyle`
         --white: #FFF;
     }
 `
-
-

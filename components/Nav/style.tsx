@@ -19,6 +19,7 @@ export const NavInfo = styled.div`
     .logo {
         display: flex;
         margin-top: 4rem;
+        z-index: 1000;
     }
 
     @media (max-width: 768px) {
@@ -40,7 +41,7 @@ export const NavInfo = styled.div`
             background-color: var(--primary);
             z-index: 1000;
             padding: .5rem;
-            height: calc(100vh - 120px)
+            height: calc(100vh - 120px);
         }
 
         li {

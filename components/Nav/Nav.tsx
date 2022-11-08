@@ -11,7 +11,7 @@ const Nav = () => {
 
     return (
         <NavStyle>
-            <NavInfo className=''>
+            <NavInfo>
                 <Image
                     src="/logoAga.svg"
                     width={150}
