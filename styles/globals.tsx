@@ -30,5 +30,7 @@ export default createGlobalStyle`
         --secondary: #BE8F41;
         --gray: #e7e7e7;
         --white: #FFF;
+
+        --primaryHover: #1d335a; 
     }
 `

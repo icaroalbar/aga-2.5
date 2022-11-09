@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Nav from '../components/Nav/Nav'
 import Header from '../components/Header/Header'
+import Policy from '../components/Policy/Policy'
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
         <meta name="AGÁ Empreendimentos" content="AGÁ Empreendimentos" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Policy />
       <Nav />
       <Header />
     </>
