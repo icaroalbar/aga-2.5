@@ -19,7 +19,7 @@ export const PolicyStyle = styled.div`
         animation: slideUp 0.5s forwards;
         animation-delay: 2.5s;
         color: var(--primary);
-        padding: 1.8rem;
+        padding: 1.3rem;
         filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
 
     }
@@ -48,6 +48,7 @@ export const FlexPolicy = styled.div`
     display: flex;
     width: ${(props: Props) => props.width};
     text-align: justify;
+    line-height: 1.4;
 
     a {
         font-weight: 800;
@@ -75,7 +76,7 @@ export const Button = styled.button`
     text-transform: uppercase;
     border-radius: .3rem;
     transition: .4s;
-    margin: auto;
+    margin: 10px auto;
 
     &:hover {
         background-color: var(--primaryHover)

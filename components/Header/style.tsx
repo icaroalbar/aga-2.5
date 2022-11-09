@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const HeaderStyle = styled.header`
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
     gap: 0 .5rem;
     width: 100%;
@@ -18,7 +17,7 @@ export const HeaderStyle = styled.header`
 export const FlexStyle = styled.div`
     display: flex;
     background-color: transparent;
-    color: ${(props) => props.color || "#fff"};
+    color: #fff;
     padding: 1rem;
     align-items: center;
     text-transform: uppercase;
