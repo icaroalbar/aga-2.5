@@ -52,6 +52,7 @@ export const FlexPolicy = styled.div`
 
     a {
         font-weight: 800;
+        color: var(--primary);
 
         &:hover {
             border-bottom: solid 2px;
